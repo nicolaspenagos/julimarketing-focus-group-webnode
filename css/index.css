@@ -1,0 +1,45 @@
+div#mainDiv{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 20px; 
+}
+
+div#layoutDiv{
+    border: 2px solid black;
+    text-align: center;
+    width: 760px;
+    height: 2000px;
+}
+
+div#currentQuestionDiv{
+    border: 1px solid black;
+    width: 600px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+input#currentQuestionInput{
+    border: 2px solid black;
+    width: 500px;
+    height: 40px;
+    padding-left: 10px;
+    font-size: large;
+}
+
+button#okButton{
+    background-color: royalblue;
+    border: 2px solid blue;
+    height: 42px;
+    color: white;
+    font-size: large;
+}
+
+.text{
+    text-align: left;
+    padding-left: 20px;
+}
