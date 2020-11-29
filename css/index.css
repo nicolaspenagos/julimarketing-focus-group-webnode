@@ -1,3 +1,9 @@
+/**~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ * @author Nicolás Penagos Montoya
+ * nicolas.penagosm98@gmail.com
+ **~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ */
+
 div#mainDiv{
     font-family: 'Roboto', sans-serif;
     display: flex;
@@ -21,25 +27,33 @@ div#currentQuestionDiv{
     width: 600px;
     height: 300px;
     margin: 0 auto;
+    line-height: 300px;
+    font-size: x-large;
 }
 
 input#currentQuestionInput{
     border: 2px solid black;
-    width: 500px;
+    width: 497px;
     height: 40px;
     padding-left: 10px;
     font-size: large;
+    text-align: center;
 }
 
 button#okButton{
     background-color: royalblue;
     border: 2px solid blue;
-    height: 42px;
+    height: 46px;
     color: white;
     font-size: large;
+    width: 80px;
 }
 
 .text{
     text-align: left;
     padding-left: 20px;
+}
+
+.subText{
+   margin-left: auto;
 }
