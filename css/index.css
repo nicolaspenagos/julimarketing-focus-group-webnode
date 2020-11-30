@@ -46,6 +46,7 @@ div#average{
     margin-bottom: 5px;
     line-height: 20px;
     padding: 5px;
+    width: 40px;
 }
 
 button#delete{

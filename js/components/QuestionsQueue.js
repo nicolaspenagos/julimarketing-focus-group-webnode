@@ -4,13 +4,19 @@
  **~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  */
 
- class QuestionsQueue{
+class QuestionsQueue {
 
-    constructor(question){
+    // -------------------------------------
+    // CONSTRUCTOR
+    // -------------------------------------
+    constructor(question) {
         this.question = question;
     }
 
-    render =()=>{
+    // -------------------------------------
+    // Render
+    // -------------------------------------
+    render = () => {
 
         let component = document.createElement('div');
         component.className = 'question';
@@ -27,8 +33,8 @@
         deleteButton.className = 'deleteButton';
         deleteButton.innerHTML = 'X';
 
-        deleteButton.addEventListener('click', ()=>{
-            let reference = database.ref('history/'+this.question.id).set(null);
+        deleteButton.addEventListener('click', () => {
+            let reference = database.ref('history/' + this.question.id).set(null);
         });
 
         component.appendChild(questionDiv);
@@ -39,4 +45,4 @@
 
     }
 
- }
+}
