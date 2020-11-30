@@ -156,8 +156,7 @@ database.ref('history').on('value', function (data) {
             let val = currentQuestion.val();
             let questionComponent = new QuestionsQueue(val);
             historyDiv.appendChild(questionComponent.render());
-            console.log(val.q);
-
+         
         }
     );
 
