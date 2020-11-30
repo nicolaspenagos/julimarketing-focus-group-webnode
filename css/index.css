@@ -4,6 +4,9 @@
  **~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  */
 
+/*
+ *  Styles
+ */
 div#mainDiv{
     font-family: 'Roboto', sans-serif;
     display: flex;
@@ -19,7 +22,6 @@ div#layoutDiv{
     border: 2px solid black;
     text-align: center;
     width: 760px;
-    height: 2000px;
 }
 
 div#currentQuestionDiv{
@@ -27,8 +29,37 @@ div#currentQuestionDiv{
     width: 600px;
     height: 300px;
     margin: 0 auto;
-    line-height: 300px;
     font-size: x-large;
+}
+
+div#currentQuestion{
+    height: 260px;
+    line-height: 270px;
+    font-size: x-large;
+}
+
+div#average{
+    height: 20px;
+    border: 1px solid black;
+    float: right;
+    margin-right: 8px;
+    margin-bottom: 5px;
+    line-height: 20px;
+    padding: 5px;
+}
+
+button#delete{
+    height: 32px;
+    border: 1px solid red;
+    background-color: lightcoral;
+    font-size: large;
+    color: white;
+    float: right;
+    margin-right: 8px;
+    margin-bottom: 5px;
+    line-height: 20px;
+    padding: 5px;
+    width: 40px;
 }
 
 input#currentQuestionInput{
@@ -37,7 +68,6 @@ input#currentQuestionInput{
     height: 40px;
     padding-left: 10px;
     font-size: large;
-    text-align: center;
 }
 
 button#okButton{
@@ -49,6 +79,10 @@ button#okButton{
     width: 80px;
 }
 
+div#history{
+    align-items: center;
+}
+
 .text{
     text-align: left;
     padding-left: 20px;
@@ -56,4 +90,40 @@ button#okButton{
 
 .subText{
    margin-left: auto;
+}
+
+.question{
+    width: 600px;
+    border: 1px solid black;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.questionDiv{
+    width: 570px;
+    height: 50px;
+    line-height: 50px;
+}
+
+.scoreDiv{
+    height: 20px;
+    margin-top: 9px;
+    margin-right: 9px;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.deleteButton{
+    background-color: lightcoral;
+    color: white;
+    height: 42px;
+    width: 30px;
+    margin-top: 9px;
+    margin-right: 9px;
+    border: 1px solid red;
+    font-size: large;
 }
